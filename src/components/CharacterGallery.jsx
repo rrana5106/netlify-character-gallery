@@ -15,8 +15,6 @@ const CharacterGallery = () => {
         race={character.race}
         realm={character.realm}
         spouse={character.spouse}
-
-        
         />
       ))}
     </div>
