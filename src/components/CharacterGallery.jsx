@@ -1,4 +1,4 @@
-import characterData from "../data/CharacterData.json";
+import characterData from "../data/characterData.json";
 import Character from "./Character";
 
 const CharacterGallery = () => {
