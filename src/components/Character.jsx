@@ -1,9 +1,9 @@
 function Character(props) {
-  // ({name, birth, d})
+
   return (
     <div>
       <h2>{props.name}</h2>
-      <img src={props.imgUrl} alt={props.name}/>
+      <img src={props.img} alt={props.name}/>
       <ul>
         <li>Date of Birth: {props.birth}</li>
         <li>Date of Death: {props.death}</li>
